@@ -1,20 +1,27 @@
-<manifest alg="2" build="2017.0.1.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="TEST.tk" resolutions="1x,2x" timestamp="1517770740889">
+<manifest alg="2" build="2017.0.1.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="test.me" resolutions="1x,2x" timestamp="1517839755220">
   <folder name="css">
     <file name="site_global.css" crc="443350757"/>
-    <file name="index.css" crc="4286225966" ref="index"/>
-    <file name="master_a-master.css" crc="495005740" ref="index"/>
+    <file name="index.css" crc="3935771363" ref="index"/>
+    <file name="master_a-master.css" crc="3777984425" ref="index:games"/>
+    <file name="nomq_preview_master_a-master.css" crc="3824530138" ref="games:index"/>
+    <file name="games.css" crc="290575709" ref="games"/>
+    <file name="nomq_index.css" crc="65868918" ref="index"/>
   </folder>
   <folder name="scripts">
-    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
-    <file name="museutils.js" crc="4148063285" ref="index"/>
-    <file name="whatinput.js" crc="86476730" ref="index"/>
-    <file name="museconfig.js" crc="172512987" ref="index"/>
-    <file name="jquery.watch.js" crc="437028206" ref="index"/>
-    <file name="require.js" crc="4159430777" ref="index"/>
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:games"/>
+    <file name="museutils.js" crc="4148063285" ref="index:games"/>
+    <file name="whatinput.js" crc="86476730" ref="index:games"/>
+    <file name="museconfig.js" crc="172512987" ref="index:games"/>
+    <file name="jquery.watch.js" crc="437028206" ref="index:games"/>
+    <file name="require.js" crc="4159430777" ref="index:games"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="4001026563" ref="index"/>
+    <file name="jquery.museresponsive.js" crc="3991890305" ref="index"/>
   </folder>
   <folder name="images">
-    <file name="untitled-11800x465.jpg" crc="4187282708" seo="true" ref="index"/>
-    <file name="21800x465.jpg" crc="104723665" seo="true" ref="index"/>
+    <file name="games-games.jpg" crc="86979220" ref="index"/>
+    <file name="games.jpg" crc="3959018659" ref="index"/>
+    <file name="blank.gif" crc="4208392903" ref="index"/>
   </folder>
-  <file name="index.html" crc="312668867" seo="true" mt="1517770673932" redirect="true"/>
+  <file name="index.html" crc="3922540883" seo="true" mt="1517839725101" redirect="true"/>
+  <file name="games.html" crc="465139230" seo="true" mt="1517839663545" redirect="true"/>
 </manifest>
