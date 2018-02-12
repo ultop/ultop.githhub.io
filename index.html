@@ -11,56 +11,73 @@
 document.documentElement.className = document.documentElement.className.replace(/\bnojs\b/g, 'js');
 
 // Check that all required assets are uploaded and up-to-date
-if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.watch.js", "jquery.musepolyfill.bgsize.js", "require.js", "index.css"], "outOfDate":[]};
+if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.watch.js", "require.js", "index.css"], "outOfDate":[]};
 </script>
   
   <title>Home</title>
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=443350757"/>
-  <link rel="stylesheet" type="text/css" href="css/master_a-master.css?crc=3942938533"/>
-  <link rel="stylesheet" type="text/css" href="css/index.css?crc=4247741550" id="pagesheet"/>
-  <!-- Other scripts -->
-  <script type="text/javascript">
-   var __adobewebfontsappname__ = "muse";
-</script>
-  <!-- JS includes -->
-  <script type="text/javascript">
-   document.write('\x3Cscript src="' + (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//webfonts.creativecloud.com/source-sans-pro:n4:default.js" type="text/javascript">\x3C/script>');
-</script>
-   </head>
+  <link rel="stylesheet" type="text/css" href="css/index.css?crc=211813620" id="pagesheet"/>
+    <!--HTML Widget code-->
+  
+	<style>
+#submit {
+    background-color: #CCCCCC;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius:5px;
+    color: #FFFFFF;
+    font-size: 16px;
+    padding:10px;
+    text-decoration: none;
+    cursor: pointer;
+    border:none;
+}
+
+#submit:hover {
+    border: none;
+    background:#D52281;
+    box-shadow: 0px 0px 1px #777;
+}
+
+#respmuseSearchQuery{
+     padding:10px;
+     margin:0px;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    border-radius:0px;
+    font-size: 14px;
+    background:#FFFFFF;
+    color:#7F7F7F;
+}
+
+    
+</style>
+		
+ </head>
  <body>
 
   <div class="clearfix borderbox" id="page"><!-- column -->
-   <div class="browser_width colelem" id="u94-bw">
-    <div class="gradient" id="u94"><!-- group -->
-     <div class="clearfix" id="u94_align_to_page">
-      <a class="nonblock nontext MuseLinkActive clearfix grpelem" id="u159-4" href="index.html"><!-- content --><p>Home</p></a>
-     </div>
-    </div>
+   <div class="size_fluid_width colelem" id="u94"><!-- custom html -->
+    
+	<!-- Si utilizas este código, asumiremos que aceptas las Condiciones del servicio de la Búsqueda personalizada de Google. -->
+<!-- Las condiciones de servicio están disponibles en http://www.google.com//cse/docs/tos.html -->
+<form name="cse" id="searchbox_demo" action="https://www.google.com/cse" target="_blank" style="text-align: center;">
+
+  <input type="hidden" name="url" value="https://yts.am" type="text" size="40"/>
+  <input type="hidden" name="ie" value="utf-8" />
+  <input type="hidden" name="hl" value="" />
+  <input type="hidden" name="cx" value="013680423505696961538:g1ylky_vuie" />
+
+
+  <input name="q" id="respmuseSearchQuery" type="text" size="40" placeholder="enter your keyword"/>
+  <input type="submit" id="submit" name="sa" value="Search" />
+</form>
+<script type="text/javascript" src="https%3A%2F%2Fcse.google.com%2Fcse/tools/onthefly?form=searchbox_demo&lang="></script>
+                                
+		
    </div>
-   <div class="clearfix colelem" id="pu107"><!-- group -->
-    <div class="browser_width grpelem" id="u107-bw">
-     <div id="u107"><!-- simple frame --></div>
-    </div>
-    <div class="browser_width grpelem" id="u149-bw">
-     <div class="transition museBGSize" id="u149"><!-- simple frame --></div>
-    </div>
-    <div class="browser_width grpelem" id="u152-bw">
-     <div class="transition museBGSize" id="u152"><!-- simple frame --></div>
-    </div>
-    <div class="browser_width grpelem" id="u181-bw">
-     <div class="transition museBGSize" id="u181"><!-- simple frame --></div>
-    </div>
-   </div>
-   <div class="browser_width colelem" id="u110-bw">
-    <div class="shadow gradient" id="u110"><!-- simple frame --></div>
-   </div>
-   <div class="verticalspacer" data-offset-top="1169" data-content-above-spacer="1217" data-content-below-spacer="0"></div>
-  </div>
-  <div class="preload_images">
-   <img class="preload" src="images/games.jpg?crc=4159376483" alt=""/>
-   <img class="preload" src="images/software.jpg?crc=3768278874" alt=""/>
-   <img class="preload" src="images/movies.jpg?crc=4066276790" alt=""/>
+   <div class="verticalspacer" data-offset-top="323" data-content-above-spacer="323" data-content-below-spacer="177"></div>
   </div>
   <!-- Other scripts -->
   <script type="text/javascript">
@@ -68,13 +85,10 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
 16);return 0},g=function(g){for(var f=document.getElementsByTagName("link"),h=0;h<f.length;h++)if("text/css"==f[h].type){var i=(f[h].href||"").match(/\/?css\/([\w\-]+\.css)\?crc=(\d+)/);if(!i||!i[1]||!i[2])break;b[i[1]]=i[2]}f=document.createElement("div");f.className="version";f.style.cssText="display:none; width:1px; height:1px;";document.getElementsByTagName("body")[0].appendChild(f);for(h=0;h<Muse.assets.required.length;){var i=Muse.assets.required[h],l=i.match(/([\w\-\.]+)\.(\w+)$/),k=l&&l[1]?
 l[1]:null,l=l&&l[2]?l[2]:null;switch(l.toLowerCase()){case "css":k=k.replace(/\W/gi,"_").replace(/^([^a-z])/gi,"_$1");f.className+=" "+k;k=a(c(f,"color"));l=a(c(f,"backgroundColor"));k!=0||l!=0?(Muse.assets.required.splice(h,1),"undefined"!=typeof b[i]&&(k!=b[i]>>>24||l!=(b[i]&16777215))&&Muse.assets.outOfDate.push(i)):h++;f.className="version";break;case "js":h++;break;default:throw Error("Unsupported file type: "+l);}}d?d().jquery!="1.8.3"&&Muse.assets.outOfDate.push("jquery-1.8.3.min.js"):Muse.assets.required.push("jquery-1.8.3.min.js");
 f.parentNode.removeChild(f);if(Muse.assets.outOfDate.length||Muse.assets.required.length)f="Some files on the server may be missing or incorrect. Clear browser cache and try again. If the problem persists please contact website author.",g&&Muse.assets.outOfDate.length&&(f+="\nOut of date: "+Muse.assets.outOfDate.join(",")),g&&Muse.assets.required.length&&(f+="\nMissing: "+Muse.assets.required.join(",")),alert(f)};location&&location.search&&location.search.match&&location.search.match(/muse_debug/gi)?setTimeout(function(){g(!0)},5E3):g()}};
-var muse_init=function(){require.config({baseUrl:""});require(["jquery","museutils","whatinput","jquery.watch","jquery.musepolyfill.bgsize"],function(d){var $ = d;$(document).ready(function(){try{
+var muse_init=function(){require.config({baseUrl:""});require(["jquery","museutils","whatinput","jquery.watch"],function(d){var $ = d;$(document).ready(function(){try{
 window.Muse.assets.check($);/* body */
 Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
-Muse.Utils.detectScreenResolution();/* HiDPI screens */
 Muse.Utils.prepHyperlinks(true);/* body */
-Muse.Utils.resizeHeight('.browser_width');/* resize height */
-Muse.Utils.requestAnimationFrame(function() { $('body').addClass('initialized'); });/* mark body as initialized */
 Muse.Utils.fullPage('#page');/* 100% height page */
 Muse.Utils.showWidgetsWhenReady();/* body */
 Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
