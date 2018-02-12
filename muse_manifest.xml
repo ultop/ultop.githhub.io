@@ -1,16 +1,26 @@
-<manifest alg="2" build="2017.0.1.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="lol.m" resolutions="1x" timestamp="1518436779705">
+<manifest alg="2" build="2017.0.1.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="me.com" resolutions="1x,2x" timestamp="1518455267684">
+  <folder name="assets">
+    <file name="-musethemes--search-widget---overlay-results-(11.1).mulib" crc="3897756867" seo="true" mt="1423250678000"/>
+  </folder>
   <folder name="css">
-    <file name="site_global.css" crc="443350757"/>
-    <file name="index.css" crc="211813620" ref="index"/>
+    <file name="site_global.css" crc="11327734"/>
+    <file name="index.css" crc="3787315562" ref="index"/>
+    <file name="master_a-master.css" crc="536506998" ref="test-2:index:test:tes-3"/>
+    <file name="test-2.css" crc="3787315562" ref="test-2"/>
+    <file name="test.css" crc="3787315562" ref="test"/>
+    <file name="tes-3.css" crc="3787315562" ref="tes-3"/>
   </folder>
   <folder name="scripts">
-    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
-    <file name="museutils.js" crc="4148063285" ref="index"/>
-    <file name="whatinput.js" crc="86476730" ref="index"/>
-    <file name="museconfig.js" crc="172512987" ref="index"/>
-    <file name="jquery.watch.js" crc="437028206" ref="index"/>
-    <file name="require.js" crc="4159430777" ref="index"/>
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:test:test-2:tes-3"/>
+    <file name="museutils.js" crc="4148063285" ref="index:test:test-2:tes-3"/>
+    <file name="whatinput.js" crc="86476730" ref="index:test:test-2:tes-3"/>
+    <file name="museconfig.js" crc="172512987" ref="index:test:test-2:tes-3"/>
+    <file name="jquery.watch.js" crc="437028206" ref="index:test:test-2:tes-3"/>
+    <file name="require.js" crc="4159430777" ref="index:test:test-2:tes-3"/>
   </folder>
   <folder name="images"/>
-  <file name="index.html" crc="3911857109" seo="true" mt="1518436693808" redirect="true"/>
+  <file name="index.html" crc="3990534936" seo="true" mt="1518452987402" redirect="true"/>
+  <file name="test.html" crc="4038452531" seo="true" mt="1518455247822" redirect="true"/>
+  <file name="test-2.html" crc="4049221111" seo="true" mt="1518455255374" redirect="true"/>
+  <file name="tes-3.html" crc="9089942" seo="true" mt="1518455259476" redirect="true"/>
 </manifest>
