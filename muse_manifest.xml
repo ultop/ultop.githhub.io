@@ -1,26 +1,45 @@
-<manifest alg="2" build="2017.0.1.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="me.com" resolutions="1x,2x" timestamp="1518455507217">
-  <folder name="assets">
-    <file name="-musethemes--search-widget---overlay-results-(11.1).mulib" crc="3897756867" seo="true" mt="1423250678000"/>
-  </folder>
+<manifest alg="2" build="2017.0.1.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="yiam.tk" resolutions="1x,2x" timestamp="1518864985383">
   <folder name="css">
-    <file name="site_global.css" crc="11327734"/>
-    <file name="index.css" crc="4101153598" ref="index"/>
-    <file name="master_a-master.css" crc="515208545" ref="test-2:index:test:tes-3"/>
-    <file name="test-2.css" crc="3787315562" ref="test-2"/>
-    <file name="test.css" crc="3787315562" ref="test"/>
-    <file name="tes-3.css" crc="3787315562" ref="tes-3"/>
+    <file name="site_global.css" crc="443350757"/>
+    <file name="master_a-master.css" crc="303690402" ref="games:cleanmymac:applications:movies:index"/>
+    <file name="games.css" crc="3790972759" ref="games"/>
+    <file name="cleanmymac.css" crc="4210996618" ref="cleanmymac"/>
+    <file name="iefonts_cleanmymac.css" crc="308109886" ref="cleanmymac"/>
+    <file name="applications.css" crc="170725329" ref="applications"/>
+    <file name="iefonts_applications.css" crc="4153062429" ref="applications"/>
+    <file name="movies.css" crc="3790972759" ref="movies"/>
+    <file name="index.css" crc="173012800" ref="index"/>
   </folder>
   <folder name="scripts">
-    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:test:test-2:tes-3"/>
-    <file name="museutils.js" crc="4148063285" ref="index:test:test-2:tes-3"/>
-    <file name="whatinput.js" crc="86476730" ref="index:test:test-2:tes-3"/>
-    <file name="museconfig.js" crc="172512987" ref="index:test:test-2:tes-3"/>
-    <file name="jquery.watch.js" crc="437028206" ref="index:test:test-2:tes-3"/>
-    <file name="require.js" crc="4159430777" ref="index:test:test-2:tes-3"/>
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:applications:games:movies:cleanmymac"/>
+    <file name="museutils.js" crc="4148063285" ref="index:applications:games:movies:cleanmymac"/>
+    <file name="whatinput.js" crc="86476730" ref="index:applications:games:movies:cleanmymac"/>
+    <file name="museconfig.js" crc="172512987" ref="index:applications:games:movies:cleanmymac"/>
+    <file name="jquery.watch.js" crc="437028206" ref="index:applications:games:movies:cleanmymac"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="4001026563" ref="index:applications"/>
+    <file name="require.js" crc="4159430777" ref="index:applications:games:movies:cleanmymac"/>
+    <file name="webpro.js" crc="3986320349" ref="applications"/>
+    <file name="musewpslideshow.js" crc="405464237" ref="applications"/>
+    <file name="jquery.museoverlay.js" crc="305414130" ref="applications"/>
+    <file name="touchswipe.js" crc="221459597" ref="applications"/>
   </folder>
-  <folder name="images"/>
-  <file name="index.html" crc="168299730" seo="true" mt="1518455500084" redirect="true"/>
-  <file name="test.html" crc="4038452531" seo="true" mt="1518455247822" redirect="true"/>
-  <file name="test-2.html" crc="4049221111" seo="true" mt="1518455255374" redirect="true"/>
-  <file name="tes-3.html" crc="9089942" seo="true" mt="1518455259476" redirect="true"/>
+  <folder name="images">
+    <file name="applications-applications.jpg" crc="4204574432" ref="index"/>
+    <file name="applications.jpg" crc="4255855264" ref="index"/>
+    <file name="cleanmymac-cleanmymac image.jpg" crc="274304283" ref="applications"/>
+    <file name="cleanmymac-cleanmymac image_2x.jpg" crc="4136141287" ref="applications"/>
+    <file name="cleanmymac.jpg" crc="177965889" ref="applications"/>
+    <file name="cleanmymac_2x.jpg" crc="66890552" ref="applications"/>
+    <file name="final cut pro.jpg" crc="106187807" seo="true" ref="applications"/>
+    <file name="blank.gif" crc="4208392903" ref="applications"/>
+    <file name="logic pro x.jpg" crc="206642551" seo="true" ref="applications"/>
+    <file name="loading.gif" crc="3815509949" ref="applications"/>
+    <file name="cleanmymac2.jpg" crc="186208970" seo="true" ref="cleanmymac"/>
+    <file name="cleanmymac_2x2.jpg" crc="4139832301" seo="true" ref="cleanmymac"/>
+  </folder>
+  <file name="index.html" crc="3840936374" seo="true" mt="1518864971563" redirect="true"/>
+  <file name="applications.html" crc="135437503" seo="true" mt="1518864971563" redirect="true"/>
+  <file name="games.html" crc="4249158069" seo="true" mt="1518864971563" redirect="true"/>
+  <file name="movies.html" crc="4033158845" seo="true" mt="1518864971563" redirect="true"/>
+  <file name="cleanmymac.html" crc="367880871" seo="true" mt="1518864971563" redirect="true"/>
 </manifest>

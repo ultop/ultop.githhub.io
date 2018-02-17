@@ -1,32 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://me.com/index.html</loc>
-    <lastmod>2018-02-12</lastmod>
+    <loc>http://yiam.tk/index.html</loc>
+    <lastmod>2018-02-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://me.com/test.html</loc>
-    <lastmod>2018-02-12</lastmod>
+    <loc>http://yiam.tk/applications.html</loc>
+    <lastmod>2018-02-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://me.com/test-2.html</loc>
-    <lastmod>2018-02-12</lastmod>
+    <loc>http://yiam.tk/movies.html</loc>
+    <lastmod>2018-02-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://me.com/tes-3.html</loc>
-    <lastmod>2018-02-12</lastmod>
+    <loc>http://yiam.tk/games.html</loc>
+    <lastmod>2018-02-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://me.com/assets/-musethemes--search-widget---overlay-results-(11.1).mulib</loc>
-    <lastmod>2015-02-06</lastmod>
+    <loc>http://yiam.tk/cleanmymac.html</loc>
+    <lastmod>2018-02-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://yiam.tk/images/cleanmymac_2x2.jpg</loc>
+    <lastmod>2018-02-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://yiam.tk/images/final%20cut%20pro.jpg</loc>
+    <lastmod>2018-02-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://yiam.tk/images/cleanmymac2.jpg</loc>
+    <lastmod>2018-02-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://yiam.tk/images/logic%20pro%20x.jpg</loc>
+    <lastmod>2018-02-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
